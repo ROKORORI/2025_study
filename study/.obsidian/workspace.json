@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "750065d0e36f7ace",
@@ -166,8 +167,9 @@
   },
   "active": "efaa647b6bbd13ae",
   "lastOpenFiles": [
-    "Study/Study.md",
+    "Study/algorithm/2025.02.03.md",
     "Study/algorithm/2025.01.21.md",
+    "Study/Study.md",
     "Study.md",
     "Study",
     "Study/algorithm"
