@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/2025.1학기/DB/1주차.md",
+                "file": "Study/algorithm/2025.03.06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1주차"
+              "title": "2025.03.06"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "750065d0e36f7ace",
@@ -183,11 +182,14 @@
   },
   "active": "5815b90e5c2433dd",
   "lastOpenFiles": [
-    "Study/2025.1학기/DB/1주차.md",
-    "Study/2025.1학기/DB",
-    "Study/2025.1학기",
-    "Study/algorithm/2025.01.21.md",
     "Study/algorithm/2025.02.03.md",
+    "Study/algorithm/2025.03.06.md",
+    "Study/4학년 1학기/컴퓨터 구조론/1주차.md",
+    "Study/4학년 1학기/DataBase/1주차.md",
+    "Study/4학년 1학기/컴퓨터 구조론",
+    "Study/4학년 1학기/DataBase",
+    "Study/4학년 1학기",
+    "Study/algorithm/2025.01.21.md",
     "Study/Study.md",
     "Study.md",
     "Study",
