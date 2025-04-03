@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/4학년 1학기/강화학습/중간 4월 24일.md",
+                "file": "Study/algorithm/2025.04.03(2).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "중간 4월 24일"
+              "title": "2025.04.03(2)"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "750065d0e36f7ace",
@@ -167,8 +168,8 @@
   },
   "active": "5815b90e5c2433dd",
   "lastOpenFiles": [
-    "Study/4학년 1학기/강화학습/5주차 2.md",
     "Study/4학년 1학기/강화학습/중간 4월 24일.md",
+    "Study/4학년 1학기/강화학습/5주차 2.md",
     "Study/4학년 1학기/강화학습/5주차 1.md",
     "Study/algorithm/2025.04.03(2).md",
     "Study/algorithm/2025.04.03(1).md",
