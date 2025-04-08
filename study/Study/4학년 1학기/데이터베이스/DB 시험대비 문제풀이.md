@@ -48,4 +48,50 @@
 		- a b = {(a, 1), (b, 1)}
 
 - ppt sql 1
-	- 
+	- create table
+		- crate table "instructor" (
+			- "ID" char(5),
+			- "name" char(20),
+			- "dept_name" char(20),
+			- "salary" decimal(8, 2)
+		- );
+		- 실습 예제1
+		- create table "instructor" (
+			- "ID" char(5),
+			- "name" char(20),
+			- "dept_name" char(20),
+			- "salary" decimal(10, 2),
+			- PRIMARY KEY("ID"),
+			- FOREIGN KEY("dept_name") REFERENCES "department"
+			- );
+		- 실습 예제2
+		- create table "course" (
+			- "course_id" char(8),
+			- "title" char(50),
+			- "dept_name" char(20),
+			- "credits" decimal(2, 0),
+			- PRIMARY KEY("course_id"),
+			- FOREIGN KEY("dept_name") REFERENCES "department"
+		- );
+	- basic operation
+		- 1)
+			- select distinct "department name"
+			- from "instructor";
+		- 2)
+			- select all *
+			- from "instructor";
+		- 3)
+			- select "ID", "name", "salary"/12 as monthly_salary
+			- from "instructor";
+		- 4)
+			- select *
+			- from "instructor"
+			- where "name" = "Comp. Sci.";
+		- 5)
+			- select *
+			- from "instructor"
+			- where "name" = "Comp. Sci" and salary > 70000;
+		- 6) from 절 활용
+			- from에 2개의 table명을 사용하면 cartesian product와 같다.
+			- select *
+			- from "instructor", "teaches";
