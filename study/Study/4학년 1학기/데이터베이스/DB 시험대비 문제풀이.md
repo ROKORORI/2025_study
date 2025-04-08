@@ -23,27 +23,29 @@
 	- join operation
 		- 개념
 			- natural join
-				- 합집합
+				- 교집합 부분에 대해 합집합 수행
 			- theta join
 				- cartesian product 이후, selection 수행
-				- 
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
-- 
+			- 예제 1
+				-  select a=c (r X s)
+				- = r theta join s (theta = A = C)
+				-  {(a, 1, a, 10 , a), (b, 2, b, 10, a), (b, 2, b, 20, b)}
+			- 예제 2
+				- r = {(a, 1, a, a), (b, 2, r, a), (r, 4, b, b), (a, 1, r, a), (g, 2, b, b)}
+					- 각 attribute는 a, b, c, d
+				- s = {(1, a, a), (3, a, b), (1, a, r), (2, b, g), (3, b, e)}
+					- 각 attribute는 b, d, e
+				- r natural join s 구하기
+				-  {(a, 1, a, a, a), (a, 1, a, a, r), (a, 1, r, a, a), (a, 1, r, a, r), (g, 2, b, b, g)}
+	- union operation
+		- a b = {(a, 1), (a, 2), (b, 1)}, a b = {(a, 2), (b, 3)}
+		- a b = {(a, 1), (a, 2), (b, 1), (b, 3)}
+	- intersection operation
+		- a b = {(a, 1), (a, 2), (b, 1)}, a b = {(a, 2), (b, 3)}
+		- a b = {(a, 2)}
+	- set difference operation
+		- a b = {(a, 1), (a, 2), (b, 1)}, a b = {(a, 2), (b, 3)}
+		- a b = {(a, 1), (b, 1)}
+
+- ppt sql 1
+	- 
