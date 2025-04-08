@@ -9,7 +9,19 @@
 			- office 유무
 		- q4 relation에서 각각의 attribute의 domain
 			- 각각 쓰기 번거로워  pass
-	- 
+	- project operation
+		- PI_A,C = (a, 1), (a, 1), (b, 1), (b, 2)
+	- cartesian product operation
+		- 개념
+			- a = {a, b, c}, b = {1, 2}
+			- a X b = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}
+			- 예제
+				- a b = {(a, 1), (b, 2)}
+				- c d e = {(a, 10, a), (b, 10, a), (b, 20, b), (r, 10, b)}
+				- a b X c d e 하면 총 8개가 나옴 
+					- (a, 1) + c d e 원소 4개 + (b, 2) + c d e 원소 4개
+	- join operation
+		- 
 - .
 - .
 - .
