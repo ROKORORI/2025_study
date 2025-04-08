@@ -21,7 +21,12 @@
 				- a b X c d e 하면 총 8개가 나옴 
 					- (a, 1) + c d e 원소 4개 + (b, 2) + c d e 원소 4개
 	- join operation
-		- 
+		- 개념
+			- natural join
+				- 합집합
+			- theta join
+				- cartesian product 이후, selection 수행
+				- 
 - .
 - .
 - .
