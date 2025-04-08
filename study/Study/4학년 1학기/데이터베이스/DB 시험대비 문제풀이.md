@@ -1,5 +1,15 @@
-- .
-- .
+-  ppt relation
+	- quiz.Concept of relation
+		- q1 attribute의 개수
+			- name, ssn, home, address, office, age, gpa
+				- 7개
+		- q2 tuple의 개수
+			- 5개
+		- q3 null value 고려
+			- office 유무
+		- q4 relation에서 각각의 attribute의 domain
+			- 각각 쓰기 번거로워  pass
+	- 
 - .
 - .
 - .
