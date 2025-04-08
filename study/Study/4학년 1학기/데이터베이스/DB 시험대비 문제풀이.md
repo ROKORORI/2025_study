@@ -95,3 +95,46 @@
 			- from에 2개의 table명을 사용하면 cartesian product와 같다.
 			- select *
 			- from "instructor", "teaches";
+- ppt sql 2
+	- 1)
+		- select "name" as "insturctor_name"
+		- from "instructor";
+	- 2)
+		- select *
+		- from "instructor"
+		- where name like "%dar%";
+	- 3) 
+		- select *
+		- from "insturctor"
+		- order by "salary" desc, "name" asc; 
+	- 4)
+		- select "name", "id"
+		- from "instructor"
+		- where "dept_name" = "Biology";
+	- 5)
+		- select "course"
+		- from "instructor"
+		- where "sem" = "Fall" and "year" = "2017"
+		- union
+		- select "course"
+		- from "instructor"
+		- where "sem" = "Spring" and "year" = 2018;
+
+- ppt sql 3
+	- 1)
+		- select avg("salary")
+		- from "instructor"
+		- where "dept_name" = "Comp.Sci";
+	- 2)
+		- select count("name")
+		- from "instructor"
+		- where "sem" = "Spring" and "year" = 2018;
+	- 3)
+		- select "dept_name", avg("salary")
+		- from "instructor"
+		- group by "dept_name";
+	- 4)
+		- select "dept_name", avg("salary")
+		- from "instructor"
+		- group by "dept_name"
+		- having avg("salalry") > 42000;
