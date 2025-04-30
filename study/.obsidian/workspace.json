@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "9주차 1"
             }
+          },
+          {
+            "id": "59b0dedbe8d331c1",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5815b90e5c2433dd",
+  "active": "59b0dedbe8d331c1",
   "lastOpenFiles": [
     "Study/4학년 1학기/강화학습/9주차 1.md",
     "Study/4학년 1학기/바이오 인공지능/9주차 1.md",
