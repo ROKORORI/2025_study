@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study/4학년 1학기/컴퓨터 구조론/10주차.md",
+                "file": "Study/4학년 1학기/데이터베이스/10주차 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10주차"
+              "title": "10주차 2"
             }
           }
         ],
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "750065d0e36f7ace",
